@@ -25,7 +25,7 @@ with st.sidebar:
 st.title("ThinkRook Gemini Bot")
 st.caption("Hello from Gemini Bot by ThinkRook.")
 
-# api_key = "AIzaSyAmRmGNoLFRH_L-yvAloJ2Nt9Y1wTvuhWU"
+# api_key = "your-api-key"
 # model_name ="gemini-2.5-flash"
 
 # genai.configure(api_key=api_key)
