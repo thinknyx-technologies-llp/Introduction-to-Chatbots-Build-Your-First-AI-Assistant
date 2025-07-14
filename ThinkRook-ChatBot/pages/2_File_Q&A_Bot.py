@@ -12,7 +12,6 @@ with st.sidebar:
         ["gemini-2.5-pro", "gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"],
         key="gemini_model"
     )
-
     gemini_api_key = st.text_input("Gemini API Key", key="gemini_api_key", type="password")
 
 
@@ -36,7 +35,6 @@ if 'messages' not in st.session_state:
 
 
 # If a new file is uploaded, read and store the article/file
-
 if uploaded_file:
     article = uploaded_file.read().decode()
     st.session_state.article_text = article
